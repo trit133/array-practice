@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(146, 97, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+}
+.btncontainer{
+   width: 800px;
+   max-width: 80%;
+   background-color: aliceblue;
+   padding: 10px;
+   border-radius: 5px;
+}
+.btngrid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn{
+    margin: 20px;
+    padding: 10px;
+    background-color: blanchedalmond;
+
+    
+}
+.btn:hover{
+    border-color: blue;
+    background-color: brown;
+}
+.text{
+    align-items: center;
+}
+.textcontainer{
+    width: 400px;
+    height: 200px;
+   max-width: 80%;
+   background-color: rgb(178, 197, 127);
+   border-radius: 5px;
+   justify-content: center;
+   padding: 100px   
+}
